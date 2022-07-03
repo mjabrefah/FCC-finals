@@ -18,3 +18,18 @@
     font-size: 25px;
     padding: 15px;
 }
+
+#welcome-section {
+    background: black;
+    height: 60vh;
+}
+
+.welcome-section {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1cm;
+}
