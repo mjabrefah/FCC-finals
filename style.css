@@ -1,12 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #navbar{
-    background: red;
-    height: 80px;
+    background: #AEB4BF;
+    height: 70px;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -23,7 +23,7 @@ a {
 
 
 .nav-item {
-    color: white;
+    color: #434343;
     /* text-decoration: none; */
     font-size: 25px;
     padding: 15px;
@@ -31,8 +31,13 @@ a {
     margin: 15px;
 }
 
+.nav-item:hover {
+    background:#8C1C31;
+    color: white;
+}
+
 #welcome-section {
-    background: black;
+    background: #262626;
     height: 100vh;
 }
 
@@ -51,7 +56,7 @@ a {
 }
 
 #projects-grid {
-    background: rgb(84, 115, 254);
+    background: #8C1C31;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -62,7 +67,7 @@ a {
 
 .project {
     /* border: 1px solid rgb(16, 16, 16); */
-    background: slategray;
+    background: linear-gradient(to top right, #AEB4BF, rgba(30, 29, 29, .5));
     text-align: center;
     /* height: 500px; */
     /* width: 30%; */
@@ -85,17 +90,25 @@ a {
 
 
 .extend {
-    background: red;
+    background: #AEB4BF;
+    text-align: center;
     padding: 15px;
-    border-radius: 15px;
+    width: fit-content;
+    border-radius: 10px;
     font-size: large;
     color: white;
-    margin-top: 20px;
+    margin: 20px;
+    max-height: 25px;
+    display: block;
 }
 
 #contact {
     /* align-items: center; */
+    background: #262626;
     text-align: center;
+    /* height: 55vh; */
+    padding: 50px;
+    color: white;
 }
 
 h2 {
@@ -106,4 +119,31 @@ h2 {
     font-size: large;
     font-style: italic;
     padding: 5px;
+}
+
+.socials{
+    padding: 10px;
+    width: 100%;
+}
+
+.fab {
+    font-size: 1.5rem;
+    margin: 25px;
+    padding: 5px;
+}
+
+
+.media-item {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    margin: 15px;
+    padding: 5px;
+}
+
+.foot {
+    text-align: center;
+    padding: 25px;
+    background:#AEB4BF;
+    color: #434343;
 }
