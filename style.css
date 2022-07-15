@@ -62,7 +62,7 @@ a {
     justify-content: space-around;
     align-content: center;
     /* align-items: center; */
-    /* height: 85vh; */
+    /* height: 100vh; */
 }
 
 .project {
@@ -88,8 +88,13 @@ a {
     align-content: center;
 }
 
-
 .extend {
+    background: #8C1C31;
+    justify-content: center;
+    display: flex;
+}
+
+.extend-button {
     background: #AEB4BF;
     text-align: center;
     padding: 15px;
@@ -103,16 +108,19 @@ a {
 }
 
 #contact {
-    /* align-items: center; */
     background: #262626;
     text-align: center;
-    /* height: 55vh; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
     padding: 50px;
     color: white;
 }
 
 h2 {
-    font-size: 1cm;
+    font-size: 1.5cm;
 }
 
 .inquiry {
@@ -130,6 +138,7 @@ h2 {
     font-size: 1.5rem;
     margin: 25px;
     padding: 5px;
+    color: white;
 }
 
 
